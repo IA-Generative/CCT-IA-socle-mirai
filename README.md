@@ -1,48 +1,110 @@
-# Cadre de Cohérence Technique (CCT) 
-## Au profit de l’intégration de l’Intelligence Artificielle dans les applications 
-## Guide d’intégration au socle *"MIRAI“*
+# Cadre de Cohérence Technique (CCT)
 
+## Intégration de l’Intelligence Artificielle dans les applications  
+### Guide d’intégration au socle *MirAI*
 
+---
 
-***Version : VERSION EN COURS D’ELABORATION***
+**Version :** Version en cours d’élaboration  
+**Date :** 21/12/2025  
+**Auteur :** Direction de la transformation numérique – Ministère de l’Intérieur  
 
-**Date :** 21/12/2025
+📣 **Appel à commentaires (RFC – Request For Comments)**
 
-**Auteur :** Direction de la transformation numérique du Ministère de l’Intérieur.
+---
 
-**Appel à commentaire de ce document.**
+## 1. Objet du document
 
-Cette version RFC (request for comment) vous permet de proposer vos commentaires de plusieurs manières:
+Ce volet du **Cadre de Cohérence Technique (CCT)** définit les conditions d’utilisation et de contribution au **socle ministériel d’Intelligence Artificielle MirAI**.  
+Il vise à permettre une utilisation optimale des ressources et un déploiement rapide des solutions, dans une architecture garantissant la maîtrise des enjeux :
 
-* 1/ utiliser le fichier de relecture proposé [Fichier pour commentaires](Le cadre de cohérence technique : 
-* <https://github.com/cloud-pi-native/cct-cloud-native/blob/main/gabarit-pour-commentaires.ods>):  
-  * et l’envoyer à : [dnum-architecture-entreprise@interieur.gouv.fr](mailto:dnum-architecture-entreprise@interieur.gouv.fr)  
-* 2/ enregistrer des issues dans github
+- de cybersécurité,
+- d’éco‑responsabilité,
+- de conformité réglementaire.
 
-**Description**
+Ce document s’adresse principalement :
 
-Ce présent volet, du cadre de cohérence technique porte sur les conditions d’utilisation et la contribution au socle ministériel d’intelligence artificielle du ministère pour permettre une utilisation optimum des ressources et la rapidité de déploiement des solutions dans une architecture permettant la maîtrise des enjeux cyber et d’eco-responsabilité.
-Ce document s’adresse aux développeurs, architectes et en général aux acteurs se projetant dans la planification, l’élaboration et la maintenance de produits numériques devant s'intégrer dans l’écosystème MirAI.
-La construction de ce socle est menée de manière itérative et incrémentale. Le backlog est révisé tout les trimestre.
-Le présent document, maintenu à jour régulièrement, présente l’état actuel et les ajouts de services envisagés. Cela permet dans un esprit de collaboration ministere et interministériel de permettre la mutualisation des moyens et la partage de la connaissance. Le lecteur intéressé est invité à prendre contact avec l’ équipe.
-Le document présente le cadre et les exigences pour permettre à une direction d’application de faciliter la construction d’application de qualité et l’accès à l’offre de service proposée. 
-Ce document et les ressources associées ont pour objectifs de : 
-guider les concepteurs d’applications afin d’optimiser les architectures produites selon des normes industrielles rigoureuses, tout en maintenant une capacité d’innovation ;
-mettre à disposition un référentiel d’exigences favorisant les bonnes pratiques et la conformité ;
-optimiser la consommation de ressources ( financière, RH, énergétique) par la réduction de la  quantité de code à produire et la modularité, l’efficience des architecture applicatives, la rationalisation des composants utilisés et l’optimisation des ressources de calcul disponibles ;
-de s’assurer de la compatibilité avec le socle mis à disposition ;
-de prendre en compte les spécificités de l’IA dans les déploiements des solutions, l’homologation en continu, le maintien en qualité ;
-de favoriser la conformité by design sur la sécurité, la protection et circulation de la donnée, notamment la donnée qui fait référence pour les usages métiers ;
-de soutenir le socle de sécurité facilitant l’homologation des systèmes;
-mettre en place un modèle de responsabilité et de collaboration adapté ;
-de disposer d’une trajectoire soutenable pour ceux en charge de maintenir les applications et les éléments du socle Mirai.
-Le lecteur est invité à vérifier qu’il dispose de la dernière version de ce document de présent ainsi que de la liste d’exigences. contenu susceptible de changer régulièrement.
+- aux développeurs,
+- aux architectes,
+- aux équipes produits,
+- et plus largement à tout acteur impliqué dans la planification, la conception ou la maintenance de produits numériques intégrés à l’écosystème MirAI.
 
-Les  différents documents qui constituent le cadre de cohérence technique Mirai  :
+---
 
-* [Lien vers le corps descriptif du CCT](./guide-integration-cct-mirai.md)
-* [Lien vers l'annexe présentant les normes applicables](./cct-normes.md)
-* [Lien vers la liste des exigences associées au CCT](./cct-exigences.md)
-* [Lien vers le glossaire](./cct-glossaire.md)
+## 2. Démarche et gouvernance
 
-[^1]: `Mirai ( MI - r - AI ) signifie futur en japonais` [lien](https://www.dictionnaire-japonais.com/w/3126/%E6%9C%AA%E6%9D%A5)
+La construction du socle MirAI est menée selon une approche :
+
+- **itérative**,
+- **incrémentale**,
+- **collaborative**.
+
+Le backlog est révisé **trimestriellement**.  
+Le présent document est maintenu à jour régulièrement afin de refléter l’état courant du socle ainsi que les évolutions envisagées.
+
+Dans un esprit de collaboration ministérielle et interministérielle, il vise à :
+
+- favoriser la mutualisation des moyens,
+- encourager le partage de la connaissance.
+
+Les équipes intéressées sont invitées à prendre contact avec l’équipe MirAI.
+
+---
+
+## 3. Objectifs du Cadre de Cohérence Technique
+
+Le CCT et les ressources associées ont pour objectifs de :
+
+- guider les concepteurs d’applications afin d’optimiser les architectures selon des normes industrielles rigoureuses, tout en maintenant une capacité d’innovation ;
+- fournir un **référentiel d’exigences** favorisant les bonnes pratiques et la conformité ;
+- optimiser la consommation des ressources :
+  - financières,
+  - humaines,
+  - énergétiques,  
+  notamment par :
+  - la réduction de la quantité de code à produire,
+  - la modularité,
+  - l’efficience des architectures applicatives,
+  - la rationalisation des composants,
+  - l’optimisation des ressources de calcul ;
+- garantir la compatibilité avec le socle MirAI ;
+- prendre en compte les spécificités de l’IA :
+  - déploiement,
+  - homologation en continu,
+  - maintien en qualité ;
+- favoriser une **conformité by design** concernant :
+  - la sécurité,
+  - la protection et la circulation des données,
+  - en particulier les données de référence métier ;
+- soutenir le socle de sécurité facilitant l’homologation des systèmes ;
+- mettre en place un modèle de responsabilité et de collaboration adapté ;
+- proposer une trajectoire soutenable pour les équipes en charge de la maintenance des applications et du socle MirAI.
+
+---
+
+## 4. Évolutivité du document
+
+Le lecteur est invité à vérifier qu’il dispose :
+
+- de la **dernière version** de ce document,
+- de la **liste d’exigences à jour**,
+
+le contenu étant susceptible d’évoluer régulièrement.
+
+---
+
+## 5. Documents constitutifs du CCT MirAI
+
+Les documents suivants composent le Cadre de Cohérence Technique MirAI :
+
+- 📘 [Corps descriptif du CCT](./guide-integration-cct-mirai.md)
+- 📐 [Annexe – Normes applicables](./cct-normes.md)
+- ✅ [Liste des exigences associées au CCT](./cct-exigences.md)
+- 📖 [Glossaire](./cct-glossaire.md)
+
+---
+
+## Notes
+
+[^1]: *MirAI (MI – r – AI)* signifie « futur » en japonais.  
+Lien : https://www.dictionnaire-japonais.com/w/3126/%E6%9C%AA%E6%9D%A5
