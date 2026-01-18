@@ -329,6 +329,7 @@ Précisions sur le cas de l’exclusion administrative (périmètre du Ministèr
 Par défaut les règles du CCT s’imposent. Elles peuvent être précisées dans le cas d’un appel d'offres dans le règlement de consultation pour le dépouillement des offres et dans le CCAP pour l’exécution du marché. Une demande de dérogation est possible. ( cf paragraphe ad hoc )
 
 ## Notes
+
 [^2]: `Mirai ( MI - r - AI ) signifie futur en japonais`
 [^3]: https://fr.wikipedia.org/wiki/Single_instruction_multiple_data
 [^4]: https://fr.wikipedia.org/wiki/Grand_mod%C3%A8le_de_langage
