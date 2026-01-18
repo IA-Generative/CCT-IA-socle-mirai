@@ -1,6 +1,6 @@
 # Cadre de Cohérence Technique (CCT)
 
-## Intégration de l’Intelligence Artificielle dans les applications  
+## Intégration de l’Intelligence Artificielle au sein des applications  
 ### Guide d’intégration au socle *MirAI*
 
 ---
