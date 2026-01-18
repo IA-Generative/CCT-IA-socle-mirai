@@ -328,10 +328,10 @@ Précisions sur le cas de l’exclusion administrative (périmètre du Ministèr
 
 Par défaut les règles du CCT s’imposent. Elles peuvent être précisées dans le cas d’un appel d'offres dans le règlement de consultation pour le dépouillement des offres et dans le CCAP pour l’exécution du marché. Une demande de dérogation est possible. ( cf paragraphe ad hoc )
 
-## Notes
+## Références
 
-[^2]: `Mirai ( MI - r - AI ) signifie futur en japonais`
-[^3]: https://fr.wikipedia.org/wiki/Single_instruction_multiple_data
-[^4]: https://fr.wikipedia.org/wiki/Grand_mod%C3%A8le_de_langage
-[^5]: https://cloud.google.com/discover/what-are-ai-agents
-[^6]: Le cadre Cloud Pi NAtive est disponible : https://github.com/cloud-pi-native/cct-cloud-native
+1. **Mirai** (MI-R-AI) signifie « futur » en japonais.
+2. SIMD – https://fr.wikipedia.org/wiki/Single_instruction_multiple_data
+3. LLM – https://fr.wikipedia.org/wiki/Grand_mod%C3%A8le_de_langage
+4. AI Agents – https://cloud.google.com/discover/what-are-ai-agents
+5. Cadre Cloud Pi Native – https://github.com/cloud-pi-native/cct-cloud-native
