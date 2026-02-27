@@ -99,7 +99,7 @@ Les documents suivants composent le Cadre de Cohérence Technique MirAI :
 
 - 📘 [Corps descriptif du CCT](./guide-integration-cct-mirai.md)
 - 📐 [Annexe – Normes applicables](./cct-normes.md)
-- ✅ [Liste des exigences associées au CCT](./cct-exigences.md)
+- ✅ [Liste des exigences associées au CCT](./exigences-cct-mirai.md)
 - 📖 [Glossaire](./cct-glossaire.md)
 
 ---
